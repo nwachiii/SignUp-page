@@ -35,6 +35,7 @@ body {
 	border-radius: 10px;
 }
 
+
 h1 {
 	font-family: 'DM Sans';
 	font-style: normal;
@@ -54,7 +55,7 @@ small {
 }
 
 .signUp-area {
-	margin-top: 3em;
+	margin-top: 6em;
 	margin-bottom: 5em;
 }
 
@@ -77,9 +78,15 @@ small {
 .lst-btn {
 	 border-radius: 5px; 
 	 color: #FB3F5C; 
-	 font-size: 18px; 
+	 font-size: 16px; 
 	 line-height: 23px;
 	 margin-top: 1em;
+}
+
+.google-logo {
+	height: 8.31; 
+	width: 16.26px;
+	margin-right: 0.5em;
 }
 
 .lst-p {
@@ -90,7 +97,60 @@ small {
 	line-height: 23px;
 	color: rgba(0, 0, 0, 0.5);
 	margin-top: 1em;
+	margin-bottom: 2em;
 	text-align: center;
+}
+
+/* Footer  */
+.news-letter{
+    background: url(/img/newsLetter.png) center  no-repeat;
+    background-size: cover;
+    min-height: 578px;
+}
+.news-letter-text>p{
+    font-size: 24px;
+    line-height: 35px;
+    color: white;
+    width: 75%;
+}
+#subscribe-input{
+    width: 100%;
+    height: 80px;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    background: transparent;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    color: white;
+    font-size: 32px;
+    line-height: 42px
+}
+#subscribe-input::placeholder{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 0.5);
+ 
+}
+.subscribe-btn{
+    width: 100%;
+    height: 80px;
+    background: #FB3F5C;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: white;
+
+}
+.page-footer{
+    background: #04172A;
+    color: white;
+}
+.page-footer a{
+    font-size: 18px;
+    line-height: 24px;
 }
 
 @media (max-width: 578px){
@@ -111,4 +171,26 @@ small {
 	margin-bottom: 1em;
 }
 
+.news-letter-text > p {
+    font-size: 12px;
+    line-height: 147.7%;
+    text-align: center;
+    width: 90%;
+    }
+
 }
+
+@media only screen and (max-width:770px){
+    .subscribe-btn , #subscribe-input {
+        height: 48px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+ 
+    }
+    #subscribe-input::placeholder{
+        font-size: 12px;
+        line-height: 16px;
+    }
+  
+ }
