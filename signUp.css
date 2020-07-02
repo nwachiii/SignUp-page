@@ -64,6 +64,11 @@ small {
 	max-width: 100%;
 }
 
+#submit {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 .form-check-lg {
 	height: 28px;
 	width: 28px;
