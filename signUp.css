@@ -1,0 +1,109 @@
+
+@import url ("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet");
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #E5E5E5;
+}
+
+.navbar {
+	background: #ffffff;
+}
+
+.nav-link{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 500;
+	color: #04172A;
+	font-size: 18px;
+	line-height: 21px;
+	margin-top: 0.5em;
+	margin-right: 1em;
+}
+
+.cstm-btn {
+	color: #ffffff;	
+	background: #FB3F5C;
+	border-radius: 10px;
+}
+
+h1 {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 44px;
+	color: #04172A;
+}
+
+small {
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	color: rgba(4, 23, 42, 0.7);
+}
+
+.signUp-area {
+	margin-top: 3em;
+	margin-bottom: 5em;
+}
+
+.signUp-img {
+	width: 614px;
+	height: 749px;
+	max-width: 100%;
+}
+
+.form-check-lg {
+	height: 28px;
+	width: 28px;
+}
+
+.lst-btn {
+	 border-radius: 5px; 
+	 color: #FB3F5C; 
+	 font-size: 18px; 
+	 line-height: 23px;
+	 margin-top: 1em;
+}
+
+.lst-p {
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-top: 1em;
+	text-align: center;
+}
+
+@media (max-width: 578px){
+.signUp-img {
+	height: 360px;
+}
+
+.signUp-area {
+	text-align: center;
+}
+
+.user-name {
+	margin-bottom: 1em;
+}
+
+#submit {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+}
