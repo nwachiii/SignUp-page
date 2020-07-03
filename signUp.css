@@ -152,6 +152,7 @@ small {
 .page-footer a{
     font-size: 18px;
     line-height: 24px;
+    color: white;
 }
 
 @media (max-width: 578px){
