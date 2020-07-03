@@ -85,8 +85,7 @@ small {
 	 margin-top: 1em;
 }
 
-.google-logo {
-	height: 8.31px; 
+.google-logo { 
 	width: 16.26px;
 	margin-right: 0.5em;
 }
@@ -194,6 +193,7 @@ small {
     }
     .signUp-img {
 	height: auto;
+	margin-left: 0;
 	}
     .signUp-area {
 	text-align: center;
