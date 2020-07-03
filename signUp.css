@@ -156,8 +156,12 @@ small {
 }
 
 @media (max-width: 578px){
-
+.signUp-img {
+	height: auto;
+	margin-left: 0;
+	}
 .signUp-area {
+	margin-top: 3em;
 	text-align: center;
 }
 
