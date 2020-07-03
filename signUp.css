@@ -159,8 +159,10 @@ small {
 	height: auto;
 	margin-left: 0;
 	}
+
 .signUp-area {
-	margin-top: 3em;
+	margin-top: 2em;
+	margin-bottom: 1em;
 	text-align: center;
 }
 
