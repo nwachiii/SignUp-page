@@ -149,10 +149,9 @@ small {
     background: #04172A;
     color: white;
 }
-.page-footer a{
-    font-size: 18px;
-    line-height: 24px;
-    color: white;
+.signUp-area {
+	margin-top: 6em;
+	margin-bottom: 5em;
 }
 
 @media (max-width: 578px){
