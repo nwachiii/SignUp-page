@@ -149,6 +149,11 @@ small {
     background: #04172A;
     color: white;
 }
+
+.page-footer{
+	color: white;
+}
+
 .signUp-area {
 	margin-top: 6em;
 	margin-bottom: 5em;
