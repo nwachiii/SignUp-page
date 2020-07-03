@@ -11,11 +11,12 @@ html {
 }
 
 body {
-	background-color: #E5E5E5;
+	background-color: #FFFFFF;
 }
 
 .navbar {
 	background: #ffffff;
+	border-bottom: 1px solid #E5E5E5;
 }
 
 .nav-link{
@@ -85,7 +86,7 @@ small {
 }
 
 .google-logo {
-	height: 8.31; 
+	height: 8.31px; 
 	width: 16.26px;
 	margin-right: 0.5em;
 }
@@ -156,10 +157,7 @@ small {
 }
 
 @media (max-width: 578px){
-.signUp-img {
-	height: auto;
-	margin-left: 0;
-	}
+
 .signUp-area {
 	text-align: center;
 }
@@ -196,7 +194,6 @@ small {
     }
     .signUp-img {
 	height: auto;
-	margin-left: 0;
 	}
     .signUp-area {
 	text-align: center;
