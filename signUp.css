@@ -157,9 +157,9 @@ small {
 
 @media (max-width: 578px){
 .signUp-img {
-	height: 380px;
-}
-
+	height: auto;
+	margin-left: 0;
+	}
 .signUp-area {
 	text-align: center;
 }
@@ -194,5 +194,12 @@ small {
         font-size: 12px;
         line-height: 16px;
     }
+    .signUp-img {
+	height: auto;
+	margin-left: 0;
+	}
+    .signUp-area {
+	text-align: center;
+}
   
  }
