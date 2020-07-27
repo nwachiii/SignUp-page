@@ -64,15 +64,15 @@ html {
 		.h1style{
 			font-size:36px;
 			font-weight:50;
-			margin-bottom:0;
-			padding-bottom:0;
+			margin-bottom: 1em;
+			padding-bottom:1em;
 			color:black;
 			text-align:start;
 		}
 		.h2style{
 			font-size:36px;
 			font-weight:bold;
-			padding-top:0;
+			padding-top:5px;
 			margin-top:-50px;
 			margin-bottom:0;
 			color:black;
